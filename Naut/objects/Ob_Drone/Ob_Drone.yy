@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Obj_Enemy",
+  "name": "Ob_Drone",
   "spriteId": {
-    "name": "Sp_Enemy",
-    "path": "sprites/Sp_Enemy/Sp_Enemy.yy",
+    "name": "Sp_Drone",
+    "path": "sprites/Sp_Drone/Sp_Drone.yy",
   },
   "solid": false,
   "visible": true,

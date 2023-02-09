@@ -10,8 +10,8 @@ alarm_set(0, 120);
 /// @DnDArgument : "var" "grupo"
 /// @DnDArgument : "type" "1"
 /// @DnDArgument : "min" "1"
-/// @DnDArgument : "max" "3"
-grupo = floor(random_range(1, 3 + 1));
+/// @DnDArgument : "max" "4"
+grupo = floor(random_range(1, 4 + 1));
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
@@ -95,4 +95,22 @@ if(grupo == 3)
 	/// @DnDArgument : "objectid" "Obj_Enemy"
 	/// @DnDSaveInfo : "objectid" "Obj_Enemy"
 	instance_create_layer(512, 224, "Instances", Obj_Enemy);
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 3A7E04A9
+/// @DnDArgument : "var" "grupo"
+/// @DnDArgument : "value" "4"
+if(grupo == 4)
+{
+	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 1833B33A
+	/// @DnDParent : 3A7E04A9
+	/// @DnDArgument : "xpos" "576"
+	/// @DnDArgument : "ypos" "224"
+	/// @DnDArgument : "objectid" "Ob_Drone"
+	/// @DnDSaveInfo : "objectid" "Ob_Drone"
+	instance_create_layer(576, 224, "Instances", Ob_Drone);
 }
