@@ -28,4 +28,12 @@ if(y == 224)
 	/// @DnDSaveInfo : "spriteind" "Sp_Jump"
 	sprite_index = Sp_Jump;
 	image_index = 0;
+
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 11C01114
+	/// @DnDParent : 46D91189
+	/// @DnDArgument : "soundid" "Sd_Salto"
+	/// @DnDSaveInfo : "soundid" "Sd_Salto"
+	audio_play_sound(Sd_Salto, 0, 0, 1.0, undefined, 1.0);
 }
