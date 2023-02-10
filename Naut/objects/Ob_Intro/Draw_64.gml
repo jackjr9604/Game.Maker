@@ -46,38 +46,6 @@ draw_text(760, 550, string("Nuevo Juego ") + "");
 
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1
-/// @DnDHash : 2F6F24A3
-draw_set_colour($FFFFFFFF & $ffffff);
-var l2F6F24A3_0=($FFFFFFFF >> 24);
-draw_set_alpha(l2F6F24A3_0 / $ff);
-
-/// @DnDAction : YoYo Games.Common.If_Variable
-/// @DnDVersion : 1
-/// @DnDHash : 42325F22
-/// @DnDArgument : "var" "Option"
-/// @DnDArgument : "value" "1"
-if(Option == 1)
-{
-	/// @DnDAction : YoYo Games.Drawing.Set_Color
-	/// @DnDVersion : 1
-	/// @DnDHash : 1A0285CC
-	/// @DnDParent : 42325F22
-	/// @DnDArgument : "color" "$FF0000FF"
-	draw_set_colour($FF0000FF & $ffffff);
-	var l1A0285CC_0=($FF0000FF >> 24);
-	draw_set_alpha(l1A0285CC_0 / $ff);
-}
-
-/// @DnDAction : YoYo Games.Drawing.Draw_Value
-/// @DnDVersion : 1
-/// @DnDHash : 01AB4DB3
-/// @DnDArgument : "x" "760"
-/// @DnDArgument : "y" "650"
-/// @DnDArgument : "caption" ""Salir al Escritorio ""
-draw_text(760, 650, string("Salir al Escritorio ") + "");
-
-/// @DnDAction : YoYo Games.Drawing.Set_Color
-/// @DnDVersion : 1
 /// @DnDHash : 483E516D
 draw_set_colour($FFFFFFFF & $ffffff);
 var l483E516D_0=($FFFFFFFF >> 24);

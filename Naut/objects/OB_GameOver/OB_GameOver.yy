@@ -1,9 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Ob_Drone",
+  "name": "OB_GameOver",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":true,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":32,"eventType":5,"isDnD":true,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":64,"eventType":13,"isDnD":true,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -11,10 +13,7 @@
     "name": "Objetos",
     "path": "folders/Objetos.yy",
   },
-  "parentObjectId": {
-    "name": "Obj_ObstaculoPadre",
-    "path": "objects/Obj_ObstaculoPadre/Obj_ObstaculoPadre.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -30,10 +29,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "Sp_Drone",
-    "path": "sprites/Sp_Drone/Sp_Drone.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }
